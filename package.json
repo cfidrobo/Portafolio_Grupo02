@@ -1,6 +1,6 @@
 {
-  "name": "Complete.Portfolio.Template",
-  "homepage": "https://cfidrobo.github.io/Portafolio_Grupo02/",
+  "name": "react-portfolio-template",
+  "homepage": "https://cfidrobo.github.io/Portafolio_Grupo02",
   
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,6 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
